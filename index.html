@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Contact Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
+
 <body>
-    
+
     <div class="container">
 
         <main>
             <div class="content">
                 <section class="image-section">
-                
+                    <!-- For Now I Only Make Section 1 For The Image -->
                 </section>
-                
+
                 <section class="form-section">
-                
+
+                    <form>
+                        <div class="form-content">
+
+                            <div class="top-title">
+                            <marquee behavior="" direction="">
+                                <h2><pre>Contact Us 🤩        Contact Us 😄    Contact Us 🤸‍♂️</pre></h2>
+                            </marquee>
+                            </div>
+
+                            <div class="inputs">
+                                <div>
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-at"></i>
+                                    <input type="email">
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <input type="number" maxlength="10" minlength="10">
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comment"></i>
+                                    <input id="comment-box" type="text">
+                                </div>
+                            </div>
+
+                            <div class="form-bottom">
+                                <button type="submit">Send</button>
+                            </div>
+
+                        </div>
+                    </form>
+
                 </section>
             </div>
         </main>
 
     </div>
 </body>
+
 </html>
