@@ -7,16 +7,16 @@ body {
 }
 
 * {
-    color: white;
     font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 i {
-      font-size: 20px;
       color: green;
       text-shadow: 5px 5px 5px red;
       margin: 0 10px 0 0;
 }
+
 
 .container {
 
@@ -117,8 +117,9 @@ form,
 }
 
 .inputs  #comment-box{
-    width: 90%;
+    width: 80%;
     height: 100px;
+    margin: auto;
 }
 
 .form-bottom {
